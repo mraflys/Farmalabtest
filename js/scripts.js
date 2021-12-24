@@ -70,7 +70,7 @@ function myFunction1(x) {
     }
   }
 
-var x = window.matchMedia("(max-width: 768px)");
+var x = window.matchMedia("(max-width: 1366px)");
 myFunction(x);
 myFunction1(x);
 x.addListener(myFunction);
